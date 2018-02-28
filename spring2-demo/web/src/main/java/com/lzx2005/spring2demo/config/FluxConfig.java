@@ -1,7 +1,6 @@
 package com.lzx2005.spring2demo.config;
 
 import com.lzx2005.spring2demo.dao.UserDao;
-import com.lzx2005.spring2demo.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
