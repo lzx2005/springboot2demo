@@ -16,7 +16,7 @@ public class UserDao {
 
     private final ConcurrentMap map = new ConcurrentHashMap();
 
-    private AtomicInteger atomicInteger = new AtomicInteger(1);
+    private AtomicInteger atomicInteger = new AtomicInteger(0);
 
     public boolean create(User user) {
         int id = atomicInteger.incrementAndGet();
