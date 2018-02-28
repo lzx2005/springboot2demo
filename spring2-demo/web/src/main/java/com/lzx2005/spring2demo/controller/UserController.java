@@ -18,10 +18,10 @@ public class UserController {
     private UserDao userDao;
 
     @PostMapping("/")
-    public User create(@RequestParam String name){
+    public User create(@RequestParam String name) {
         User user = new User();
         user.setName(name);
-        if(userDao.create(user)){
+        if (userDao.create(user)) {
             System.out.println("创建成功");
         }
         return user;

@@ -24,7 +24,6 @@ public class UserDao {
         return map.put(id, user) == null;
     }
 
-
     public Collection getAll(){
         return map.values();
     }

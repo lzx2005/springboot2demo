@@ -8,10 +8,8 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>web</artifactId>
-
-
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
@@ -20,17 +18,4 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <mainClass>com.lzx2005.spring2demo.Spring2DemoApplication</mainClass>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
 </project>
